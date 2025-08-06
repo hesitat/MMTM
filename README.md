@@ -51,7 +51,7 @@ You can create a conda environment for reproducibility:
 ```bash
 conda create -n mmtm_env python=3.10
 conda activate mmtm_env
-pip install torch+cpu torchvision torchaudio 
+pip install torch torchvision torchaudio 
 ```
 
 > ℹ️ Please install other required packages as needed (e.g., numpy, pandas, lifelines, sklearn).
